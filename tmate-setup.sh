@@ -10,7 +10,7 @@ rm -r  ~/.termux/boot
 mkdir ~/.termux
 mkdir ~/.termux/boot
 cd ~/.termux/boot
-chmod +X ~/internet-checker/start-tmate
+chmod +x ~/internet-checker/start-tmate
 
 cp ~/internet-checker/start-tmate ~/.termux/boot
 chmod +x ~/.termux/boot/start-tmate
